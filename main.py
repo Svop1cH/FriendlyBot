@@ -1,6 +1,7 @@
 import telebot
 import random
-bot = telebot.TeleBot('6410306674:AAFTmnYKwv_hOVgr_X44xvb5Suo1myx_ueQ')
+form tokbot import a
+bot = telebot.TeleBot(a)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_privet(message):
